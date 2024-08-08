@@ -1,7 +1,191 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div class="content-wrapper">
+    <div class="header">
+      <div class="me-header">
+        <b>
+          <div class="my-name">Vivian Winters</div>
+        </b>
+        <small class="my-role"> Gameplay Programmer</small>
+      </div>
+      <div class="contact-links">
+
+        <a href="https://www.linkedin.com/in/vivian-winters">
+          <img class="contact-icon" src="Resources/Linkedin.png" />
+        </a>
+
+        <a href="https://github.com/VivianWinters">
+          <img class="contact-icon" src="Resources/Github.png" />
+        </a>
+
+        <a href="mailto:vivi7winters@gmail.com">
+          <img class="contact-icon" src="Resources/Email.png" />
+        </a>
+
+        <div class="resume-link">
+          <a href="./Resources/Vivian Winters Resume.pdf"> Resume </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="professional-content">
+        <div class="section-header"><b>Professional Projects</b></div>
+        <hr />
+        <div class="job-entry">
+          <div class="entry-left">
+            <b>
+              <div class="project-title">
+                The Wagadu Chronicles [Unity]
+              </div>
+            </b>
+            <div class="project-company">Twin Drums</div>
+            <div class="project-media">
+              <video width="500px" height="350px" controls autoplay muted>
+                <source src="Resources/Wagadu.mp4">
+              </video>
+            </div>
+            <div class="project-description">
+              An Afro-Fantasy based sandbox MMORPG
+            </div>
+            <div class="project-links">
+              <a href="https://store.steampowered.com/app/2464400/The_Wagadu_Chronicles/">
+                [Steam Link]
+              </a>
+            </div>
+          </div>
+          <div class="entry-right">
+            <div class="project-role">Role: Gameplay and UI Programmer</div>
+            <div class="project-contribution">
+              <div class="contribution-header">My Contributions:</div>
+              <ul>
+                <li>
+                  Client-Server gameplay systems using Unity's Netcode for
+                  GameObjects
+                </li>
+                <li>
+                  Worked on gameplay prototypes with Design and Art team
+                  before implementing into main codebase
+                </li>
+                <li>
+                  Implement UI based on team artist's and personal designs
+                </li>
+                <li>
+                  Controller support for in-game actions and UI menu
+                  navigation
+                </li>
+                <li>Live service support and bug tracking/fixing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="personal-content">
+        <div class="section-header"><b>Personal Projects</b></div>
+        <hr />
+        <div class="job-entry">
+          <div class="entry-left">
+            <b>
+              <div class="project-title">
+                Untitled Brawler Prototype [Unity]
+              </div>
+            </b>
+            <div class="project-company">Solo</div>
+            <div class="project-media">
+              <video width="500px" height="350px" controls autoplay muted>
+                <source src="Resources/Chalk Taco.mp4">
+              </video>
+            </div>
+            <div class="project-description">
+              A personal project to create a 3D brawler with fighting game
+              mechanics
+            </div>
+            <!-- <div class="project-links">[Link (to do)]</div> -->
+          </div>
+          <div class="entry-right">
+            <div class="project-role">Role: Gameplay Programmer</div>
+            <div class="project-contribution">
+              <div class="contribution-header">My Contributions:</div>
+              <ul>
+                <li>
+                  Custom 3D character controllers with Finite-state machine
+                </li>
+                <li>
+                  Fighting game inspired melee combat system with juggles,
+                  ground bounces, crumples, and etc
+                </li>
+                <li>Custom 3rd person camera</li>
+                <li>Animated 3D models</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="job-entry">
+          <div class="entry-left">
+            <b>
+              <div class="project-title">
+                Kinetic [Custom SFML Framework]
+              </div>
+            </b>
+            <div class="project-company">Solo</div>
+            <div class="project-media">
+              <video width="500px" height="350px" controls autoplay muted>
+                <source src="Resources/Kinetic.mp4">
+              </video>
+            </div>
+            <div class="project-description">
+              Simple 2D fighter built on top of a custom SFML Framework
+              provided by an old upperclassman
+            </div>
+            <!-- <div class="project-links">[Link (to do)]</div> -->
+          </div>
+          <div class="entry-right">
+            <div class="project-role">Role: Gameplay Programmer</div>
+            <div class="project-contribution">
+              <div class="contribution-header">My Contributions:</div>
+              <ul>
+                <li>Implemented simple AABB collisions and 2D physics</li>
+                <li>Built combat and gameplay systems</li>
+                <li>Created all art assets</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-me-content">
+        <div class="section-header"><b>About Me</b></div>
+        <hr />
+        <div class="about-me-entry">
+          <img class="about-photo" src="Resources/Headshot2.png" />
+          <div class="about-blurb">
+            Hello!<br />
+            My name is
+            <b>Vivian Winters</b>
+            and I am a
+            <b>Gameplay Programmer</b>
+            with 2 years of experience in the gaming industry. I'm always
+            eager to learn and I love solving complex problems with clean
+            solutions, be it code or design.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

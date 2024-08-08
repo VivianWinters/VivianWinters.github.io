@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(123, 123, 123);
+}
+
+.montserrat-gold {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  font-family: Montserrat;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  /* color: black; */
+  background-color: rgb(33, 33, 33);
+}
+
+.content-wrapper {
+  margin: auto;
+  width: 1400px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  height: 130px;
+  background-color: rgb(99, 99, 99);
+  /* border-bottom: 1px solid red; */
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.me-header {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: rgb(99, 99, 99);
+}
+
+.my-name {
+  font-size: 40px;
+  background-color: rgb(99, 99, 99);
+}
+
+.my-role {
+  font-size: 25px;
+  background-color: rgb(99, 99, 99);
+}
+
+.contact-links {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  background-color: rgb(99, 99, 99);
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid blue; */
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-link {
+  height: 50px;
+  /* border: 1px solid blue; */
+  margin: 10px;
+  align-self: center;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-content {
+  padding-top: 50px;
+}
+
+.professional-content {
+  /* border: 1px solid aqua; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.personal-content {
+  /* border: 1px solid mintcream; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.about-me-content {
+  /* border: 1px solid lightpink; */
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.section-header {
+  font-size: 25px;
+}
+
+.job-entry {
+  display: flex;
+  border: 1px solid black;
+  margin-bottom: 40px;
+  padding: 10px;
+  background-color: rgb(99, 99, 99);
+}
+
+.entry-left {
+  /* border: 1px solid lightpink; */
+  background-color: rgb(99, 99, 99);
+}
+
+.entry-right {
+  /* border: 1px solid lightpink; */
+  background-color: rgb(99, 99, 99);
+  margin-left: 25px;
+  padding-top: 50px;
+}
+
+.project-title {
+  font-size: 20px;
+  background-color: rgb(99, 99, 99);
+}
+
+.project-company {
+  font-size: 18px;
+  background-color: rgb(99, 99, 99);
+}
+
+.project-media {
+  width: 500px;
+  height: 350px;
+  /* border: 1px solid blue; */
+  /* margin-top: 10px; */
+  /* margin-bottom: 10px; */
+}
+
+.project-links {
+  background-color: rgb(99, 99, 99);
+}
+
+.project-role {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  background-color: rgb(99, 99, 99);
+}
+
+.project-description {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: rgb(99, 99, 99);
+}
+
+.project-contribution {
+  padding-top: 20px;
+  background-color: rgb(99, 99, 99);
+}
+
+.contribution-header {
+  font-size: 18px;
+  padding-left: 20px;
+  background-color: rgb(99, 99, 99);
+}
+
+ul {
+  width: 700px;
+  list-style-type: circle;
+  margin-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-me-entry {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-photo {
+  width: 150px;
+  height: 150px;
+}
+
+.about-blurb {
+  width: 750px;
+  /* display: flex; */
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 30px;
+}
+
+/*
+  End
+*/
